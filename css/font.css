@@ -1,0 +1,16 @@
+
+@font-face{
+  font-family: 'Bodoni Moda';
+  font-display: swap;
+  src: url('../font/BodoniModa-Italic-VariableFont_opsz,wght.ttf') format("truetype");
+}
+
+@font-face{
+  font-family: 'Note Serif SC';
+  font-display: swap;
+  src: url('../font/NotoSerifSC-Regular.otf') format("truetype");
+}
+
+body {
+  font-family: 'Note Serif SC',"PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+}
