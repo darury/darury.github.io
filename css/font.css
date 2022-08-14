@@ -10,7 +10,12 @@
   font-display: swap;
   src: url('../font/NotoSerifSC-Regular.otf') format("truetype");
 }
+@font-face{
+  font-family: '霞鹜臻楷';
+  font-display: swap;
+  src: url('../font/霞鹜臻楷.ttf') format("truetype");
+}
 
 body {
-  font-family: 'Note Serif SC',"PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+  font-family: 'Note Serif SC', sans-serif, "Microsoft YaHei","Microsoft JhengHei",'霞鹜臻楷',"PingFang SC";
 }
